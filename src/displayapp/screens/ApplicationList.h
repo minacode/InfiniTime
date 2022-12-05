@@ -42,18 +42,18 @@ namespace Pinetime {
           {Symbols::stopWatch, Apps::StopWatch},
           {Symbols::clock, Apps::Alarm},
           {Symbols::hourGlass, Apps::Timer},
-          {Symbols::shoe, Apps::Steps},
+          {Symbols::calculator, Apps::Calculator},
           {Symbols::heartBeat, Apps::HeartRate},
           {Symbols::music, Apps::Music},
 
           {Symbols::paintbrush, Apps::Paint},
           {Symbols::paddle, Apps::Paddle},
           {"2", Apps::Twos},
-          {Symbols::chartLine, Apps::Motion},
+          {Symbols::shoe, Apps::Steps},
           {Symbols::drum, Apps::Metronome},
           {Symbols::map, Apps::Navigation},
 
-          {"+", Apps::Calculator},
+          {Symbols::chartLine, Apps::Motion},
         }};
         ScreenList<nScreens> screens;
       };
