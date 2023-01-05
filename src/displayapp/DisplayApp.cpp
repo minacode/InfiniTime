@@ -494,7 +494,6 @@ void DisplayApp::LoadScreen(Apps app, DisplayApp::FullRefreshDirections directio
       break;
     case Apps::Calculator:
       currentScreen = std::make_unique<Screens::Calculator>(this);
-      ReturnApp(Apps::Launcher, FullRefreshDirections::Down, TouchEvents::None);
       break;
   }
   currentApp = app;
